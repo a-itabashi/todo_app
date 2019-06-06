@@ -16,6 +16,10 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem "webpacker", github: "rails/webpacker"
 gem 'foreman'
 
+gem 'materialize-sass'
+gem 'material_icons'
+gem 'jquery-rails'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
